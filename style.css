@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #192a56;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  background: #ff5252;
+  color: #f7f1e3;
+}
+#scoreboard {
+  background: #f7f1e3;
+  margin: 20px auto;
+  width: 140px;
+  font-weight: bold;
+  font-size: 3em;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+}
+.player {
+  width: 70px;
+  position: absolute;
+  font-size: 20px;
+  background: #ff5252;
+  color: white;
+  font-weight: 5;
+  padding: 2px;
+}
+#user {
+  top: 25%;
+  left: -70px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#comp {
+  top: 25%;
+  right: -70px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#message {
+  color: #f7f1e3;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.choice {
+  display: inline-block;
+  margin: 30px 10px;
+  background: #f7f1e3;
+  border-radius: 50%;
+  padding: 20px;
+  transition: background 0.3s ease-out;
+}
+#choices {
+  text-align: center;
+}
+#makeYourMove {
+  margin-top: 10px;
+  color: #f7f1e3;
+  font-size: 1.5em;
+  text-align: center;
+}
+.red {
+  background: #eb4d4b;
+}
+.green {
+  background: #6ab04c;
+}
+.gray {
+  background: #95afc0;
+}
