@@ -2,9 +2,6 @@
 
 ![](./screenshot.png)
 
-
-
 ## Introduction
 
-Javascript Rock paper scissors game with HTML, CSS and Javascript. [Live-demo](rps-js-game.netlify.com)
-
+Javascript Rock paper scissors game with HTML, CSS and Javascript. [Live-demo](https://rps-js-game.netlify.com/)
